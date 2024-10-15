@@ -1,3 +1,4 @@
+
 const p = document.getElementById("p");
 const searchBtn = document.getElementById("searchBtn");
 
@@ -9,3 +10,4 @@ searchBtn.addEventListener("click", () => {
     p.innerHTML = p.textContent.replace(regExp, "<mark>$&</mark>");
   }
 });
+
